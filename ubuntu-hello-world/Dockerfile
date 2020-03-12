@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN echo "Hello world from your ubuntu container!"
+CMD echo "Hello world from your ubuntu container!"
 
