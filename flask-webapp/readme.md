@@ -30,7 +30,17 @@ Start web server
     FLASK_APP=/opt/app/app.py flask run --host=0.0.0.0 --port=8080
 
     
-## 4. Test
+## 4. Get the IP of your container
+
+Get your container id
+    
+    docker ps -q
+
+Retrieve the IP Address 
+
+    docker inspect <container-id>
+
+## 5. Test
 
 Open a browser and go to URL
 
